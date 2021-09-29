@@ -3,13 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Carattere&display=swap" rel="stylesheet">
   <title>Biblioteca de Polifemo</title>
 </head>
 <body>
   <header>
     <img class="logo" src="images/logocalamo.png">
     <nav>
-      <ul class="menucabecera">  
+      <ul class="menucabecera">
         <li><a href="fantasia.html">Autores Fantasía</a></li>
         <li><a href="sci-fi.html">Autores Ciencia Ficción</a></li>
         <li><a href="terror.html">Autores de Terror</a></li>
@@ -30,6 +34,13 @@
       </div>
     </div>
   </main>
+  <div class="contenedor-cookies" id="alertcookies">
+    <div class="cookies">
+      <p>Este sitio web utiliza cookies. Si deseas más información, puedes consultar <a href="politica-de-cookies.html">nuestra política de cookies<a></p>
+      <input type="submit" id="aceptar-cookies" name="aceptarcookies" value="Aceptar">
+      <input type="submit" id="rechazar-cookies" name="rechazarcookies" value="Rechazar">
+    </div>
+  </div>
   <footer>
     <div id="menufooter">
       <ul>
@@ -52,5 +63,7 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/variables.js"></script>
   <script src="js/tiposdevariables.js"></script>
+  <script src="js/cookies.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </body>
 </html>

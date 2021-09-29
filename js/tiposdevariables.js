@@ -1,3 +1,3 @@
 $(document).ready(function () {
-  $('h1').remove();
+  $('h1')
 });

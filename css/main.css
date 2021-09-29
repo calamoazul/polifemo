@@ -1,0 +1,48 @@
+* {
+
+  margin: 0px;
+}
+
+body {
+  background-color: #9c2e38;
+}
+h1 {
+  font-family: Carattere, cursive;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.7em;
+  color: #fdbb58;
+}
+
+h2 {
+  font-family: Carattere;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.7em;
+  color: #fdbb58;
+}
+
+h3 {
+  font-family: Carattere;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.7em;
+  color: #fdbb58;
+}
+
+p {
+  font-family: Calligraffitti, normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #0c0304;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
